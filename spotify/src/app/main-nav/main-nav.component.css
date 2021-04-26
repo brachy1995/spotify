@@ -20,6 +20,7 @@
 .mat-list-base .mat-list-item{
   padding-left: 26px;
   padding:0px;
+  font-size: 18px;
 
 }
 /* .mat-toolbar-single-row {
@@ -42,6 +43,8 @@
 .mat-nav-list img
 {
   padding-right: 22.82px;
+  width: 20.18px;
+  height: 21.6px;
 }
 
 .mat-list-item:hover{
@@ -49,7 +52,7 @@
   /* width:80%; */
   padding-left: 25px;
   border-radius: 10px;
-  
+
 
 }
 /* mat-list-base */
