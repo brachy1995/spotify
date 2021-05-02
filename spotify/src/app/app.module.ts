@@ -10,11 +10,29 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { HomeComponent } from './home/home.component';
+import { BrowseComponent } from './browse/browse.component';
+import { LikedSongsComponent } from './liked-songs/liked-songs.component';
+import { AppRoutingModule} from './app-routing.module';
+import { PlaylistComponent } from './home/playlist/playlist.component';
+// import { Routes } from '@angular/router'; // CLI imports router
+
+// const appRoutes: Routes = [ 
+//   { path: 'home', component: HomeComponent },
+//   { path: 'home', component: HomeComponent },
+//   { path: 'browse', component: BrowseComponent },
+//   { path: 'liked-songs', component: LikedSongsComponent },
+// ];
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainNavComponent
+    MainNavComponent,
+    HomeComponent,
+    BrowseComponent,
+    LikedSongsComponent,
+    PlaylistComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +42,8 @@ import { MatListModule } from '@angular/material/list';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,14 @@
 html,body{
     height: 100%;
 }
+
+.middle{
+    margin-left: 50px;
+}
+
+.container{
+    width:80%;
+}
+.out{
+    width:50%;
+}

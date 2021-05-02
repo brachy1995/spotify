@@ -5,9 +5,10 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar><img src="assets/img/logo.png"></mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#"><img src="assets/img/home_icon.png"> Home</a>
-      <a mat-list-item href="#"><img src="assets/img/browse_icon.png"> Browse</a>
-      <a mat-list-item href="#"><img src="assets/img/liked_songs_icon.png"> Liked songs</a>
+      <!-- <a mat-list-item routerLink="/Browse" ><img src="assets/img/browse_icon.png"> Browse</a> -->
+      <a mat-list-item routerLink="/Home" routerLinkActive="mat-list-itemActive"><img src="assets/img/home_icon.png"> Home</a>
+      <a mat-list-item routerLink="/Browse" [routerLinkActive]="'mat-list-itemActive'"><img src="assets/img/browse_icon.png"> Browse</a>
+      <a mat-list-item routerLink="/liked-songs" [routerLinkActive]="'mat-list-itemActive'"><img src="assets/img/liked_songs_icon.png"> Liked songs</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -23,5 +24,6 @@
       <!-- <span>spotify</span> -->
     <!-- </mat-toolbar> -->
     <!-- Add Content Here -->
+    <ng-content></ng-content>
   </mat-sidenav-content>
 </mat-sidenav-container>
