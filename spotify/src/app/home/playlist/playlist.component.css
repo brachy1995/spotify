@@ -1,0 +1,26 @@
+.list-group-item-heading{
+    max-width: 157px;
+    max-height: 34px;
+    font-family: Rubik;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 100%;
+    /*align: left;
+    vertical-align: top;*/
+}
+
+.list-group-item-text{
+    max-width: 157px;
+    max-height: 34px;
+    font-family: Rubik;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 2px;
+    line-height: 100%;
+}
+
+.song-img{
+    max-height:323px;
+    max-width: 215px;
+}

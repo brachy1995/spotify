@@ -1,7 +1,12 @@
 <div class="playlist">
-    <a href="#">
-        <div class="list-group-item">
-            "uiu"
-        </div>
+    <a class="list-group-item" 
+     *ngFor="let song of playlists">
+     <img
+     [src]="song.imagePath"
+     alt="{{song.title}}"
+     class="song-img"
+     style="cursor:pointeer">
+     <h4 class="list-group-item-heading">{{song.title}}</h4>
+     <p class ="list-group-item-text">{{song.description}}</p>
     </a>
 </div>

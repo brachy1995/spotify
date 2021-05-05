@@ -3,6 +3,7 @@ export class Playlist{
   public title: string;
   public description: string;
   public playlist_id: string;
+  
   constructor(desc: string , imagePath: string ,title: string, playlist_id: string ){
       this.imagePath=imagePath;
       this.title=title;

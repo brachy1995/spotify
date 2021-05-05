@@ -15,6 +15,7 @@ import { BrowseComponent } from './browse/browse.component';
 import { LikedSongsComponent } from './liked-songs/liked-songs.component';
 import { AppRoutingModule} from './app-routing.module';
 import { PlaylistComponent } from './home/playlist/playlist.component';
+import { PlaylistCarouselComponent } from './playlist-carousel/playlist-carousel.component';
 // import { Routes } from '@angular/router'; // CLI imports router
 
 // const appRoutes: Routes = [ 
@@ -32,7 +33,8 @@ import { PlaylistComponent } from './home/playlist/playlist.component';
     HomeComponent,
     BrowseComponent,
     LikedSongsComponent,
-    PlaylistComponent
+    PlaylistComponent,
+    PlaylistCarouselComponent
   ],
   imports: [
     BrowserModule,
